@@ -121,15 +121,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #e2e2e2;
 }
 .redes-sociales .iconos-redes-sociales {
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 20%;
 }
 .redes-sociales .iconos-redes-sociales a {
   color: #e2e2e2;
+}
+.redes-sociales .iconos-redes-sociales a i {
+  margin: 10px;
 }
 .redes-sociales .iconos-redes-sociales a:hover {
   color: #ecec39;
@@ -223,7 +227,7 @@
     display: none;
   }
   .portada {
-    width: 110%;
+    width: 100%;
     height: 300px;
     zoom: 1.1;
   }
@@ -259,15 +263,18 @@
     font-size: 23px;
   }
   .redes-sociales {
-    height: 50px;
+    height: 110px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   .redes-sociales .iconos-redes-sociales {
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: auto;
   }
   .redes-sociales .iconos-redes-sociales a i {
-    margin-left: 10px;
+    margin: 10px;
   }
   .info {
     height: 1600px;

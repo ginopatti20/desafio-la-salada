@@ -122,13 +122,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #e2e2e2;
     .iconos-redes-sociales{
         color: white;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         width: 20%;
         a{
             color: #e2e2e2;
+            i{
+                margin: 10px;
+            }
         }
         a:hover{
             color: #ecec39;
@@ -244,7 +248,7 @@
         }
     }
     .portada{
-        width: 110%;
+        width: 100%;
         height: 300px;
         zoom: 1.1;
         img{
@@ -281,14 +285,17 @@
         }
     }
     .redes-sociales{
-        height: 50px;
+        height: 110px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
         .iconos-redes-sociales{
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
             width: auto;
             a{
                 i{
-                    margin-left: 10px;
+                    margin: 10px;
                 }
             }
         }
