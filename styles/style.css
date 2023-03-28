@@ -222,7 +222,7 @@
   align-items: center;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   .header .logo-header {
     display: none;
   }
@@ -277,7 +277,7 @@
     margin: 10px;
   }
   .info {
-    height: 1600px;
+    height: auto;
     padding: 20px;
   }
   .info .imagenes {
